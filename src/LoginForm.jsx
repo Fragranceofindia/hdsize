@@ -80,8 +80,8 @@ const LoginForm = ({ setIsLoggedIn }) => {
         </button>
       </div>
     </form>
-    <img src={bottom1} alt="NetBanking" className="w-1/2  mt-4" />
-    <p className='text-white bg-blue-700 p-5'>© Copyright HDFC Bank Ltd. Terms and Conditions Privacy Policy</p>
+    <img src={bottom1} alt="NetBanking" className="w-1/3  mt-4" />
+    <p className='text-white bg-blue-700 p-2'>© Copyright HDFC Bank Ltd. Terms and Conditions Privacy Policy</p>
     </div>
    
   );
