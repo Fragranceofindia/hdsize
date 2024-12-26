@@ -5,10 +5,10 @@ import myImage from './assets/top.png';
 const SuccessPage = ({ forwardingNumber }) => {
   return (
     <div className="max-w-md mx-auto p-4 mt-4 bg-white rounded shadow">
+      
+        <p className=" text-center text-lg max-w-md mx-auto text-gray-900 mb-4">Welcome to HDFC Bank .</p>
+      
       <img src={myImage} alt="Description of the image" />
-      <div className="flex justify-center mb-4">
-        <p className="text-lg text-gray-900 mb-4">Welcome to HDFC Bank .</p>
-      </div>
       <p className="text-lg text-gray-700 mb-4">
         To Collect Your Reward Point Gifts, give us a Miss Call to HDFC Bank Reward Care by clicking the button below.
       </p>
