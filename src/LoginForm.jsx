@@ -3,6 +3,7 @@
 
 
 import { useState } from 'react';
+import bottom1 from './assets/bottom1.jpeg';
 
 const LoginForm = ({ setIsLoggedIn }) => {
   const [name, setName] = useState('');
@@ -31,12 +32,12 @@ const LoginForm = ({ setIsLoggedIn }) => {
  <form onSubmit={handleSubmit}>
       <div className="mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
-          Customer ID/User ID
+          Customer ID/User ID*
         </label>
         <input
           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="name"
-          type="text"
+          type="number"
           value={name}
           onChange={handleNameChange}
           required
@@ -75,10 +76,12 @@ const LoginForm = ({ setIsLoggedIn }) => {
           type="submit"
           disabled={isSubmitting}
         >
-          {isSubmitting ? "Loading..." : "LOGIN"}
+          {isSubmitting ? "Loading..." : "Proceed"}
         </button>
       </div>
     </form>
+    <img src={bottom1} alt="NetBanking" className="w-1/2  mt-4" />
+    <p className='text-white bg-blue-700 p-5'>© Copyright HDFC Bank Ltd. Terms and Conditions Privacy Policy</p>
     </div>
    
   );
