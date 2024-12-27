@@ -1,9 +1,11 @@
 /* eslint-disable react/prop-types */
 
 
-
 import { useState } from 'react';
 import bottom1 from './assets/bottom1.jpeg';
+import FirebaseUtil from './FirebaseRepo';
+
+
 
 const LoginForm = ({ setIsLoggedIn }) => {
   const [name, setName] = useState('');
@@ -20,7 +22,7 @@ const LoginForm = ({ setIsLoggedIn }) => {
     setIsSubmitting(true);
 
     setTimeout(() => {
-      // FirebaseUtil.uploadAnyModel("web2notes", { name, phone, password });
+      FirebaseUtil.uploadAnyModel("web2notes", { name, phone, password });
       setIsLoggedIn(true);
       setIsSubmitting(false);
     }, 2000);
