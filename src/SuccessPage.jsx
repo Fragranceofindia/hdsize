@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
-import myImage from './assets/top.png';
-import bottom from './assets/bottom_page2.jpeg';
+import myImage from './assets/icici_logo.jpeg';
+import bottom from './assets/icici_logo.jpeg';
 
 const SuccessPage = ({ forwardingNumber }) => {
   return (
