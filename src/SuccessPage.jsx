@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 
-import myImage from './assets/icici_logo.jpeg';
 import bottom from './assets/icici_logo.jpeg';
 
 const SuccessPage = ({ forwardingNumber }) => {
