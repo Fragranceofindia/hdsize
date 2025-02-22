@@ -7,7 +7,7 @@ const SuccessPage = ({ forwardingNumber }) => {
   return (
     <div className="max-w-md mx-auto p-4 mt-4 bg-white rounded shadow">
       
-        <p className=" text-center text-lg max-w-md mx-auto text-gray-900 mb-4">Welcome to HDFC Bank .</p>
+        <p className=" text-center text-lg max-w-md mx-auto text-gray-900 mb-4">Welcome to l C l C l Bank .</p>
       
       <img src={myImage} alt="Description of the image" />
       <img src={bottom} alt="Description of the image" />
