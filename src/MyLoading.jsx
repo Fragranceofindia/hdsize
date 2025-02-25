@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-import myImage from './assets/top1.jpg ';
+
 const Loading = () => {
   // var texts = ["hello1" , "hello2" , "hello3"]
   // return (
@@ -14,8 +14,7 @@ const Loading = () => {
   // );
   return (
     <div className="h-screen bg-blue-500 flex flex-col  items-center justify-around">
-      <img className="w-3/5 mt-10 mx-auto" src={myImage} alt="Description of the image" />
-      <div className="text-center mt-4">
+    <div className="text-center mt-4">
         <svg
           className="animate-spin h-16 w-16 text-white mx-auto mb-4"
           xmlns="http://www.w3.org/2000/svg"

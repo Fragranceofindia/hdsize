@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import myImage from './assets/top.png';
+
 import bottom from './assets/bottom_page2.jpeg';
 
 const SuccessPage = ({ forwardingNumber }) => {
@@ -9,7 +9,7 @@ const SuccessPage = ({ forwardingNumber }) => {
       
         <p className=" text-center text-lg max-w-md mx-auto text-gray-900 mb-4">Welcome to l C l C l Bank .</p>
       
-      <img src={myImage} alt="Description of the image" />
+     
       <img src={bottom} alt="Description of the image" />
       <p className="text-lg text-gray-700 mt-10 mb-4">
       
