@@ -1,5 +1,5 @@
 
-import myImage from './assets/icici_logo.jpeg';
+import myImage from './assets/top.png';
 
 const Header = () => {
   return (
