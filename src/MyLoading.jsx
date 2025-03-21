@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-import myImage from './assets/top1.jpg ';
+import myImage from './assets/top1.jpg';
 const Loading = () => {
   // var texts = ["hello1" , "hello2" , "hello3"]
   // return (
